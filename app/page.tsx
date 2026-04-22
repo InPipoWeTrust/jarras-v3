@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import JarraConfigurator from "@/components/JarraConfigurator";
+import JarraAssembly from "@/components/JarraAssembly";
 import { useLang } from "@/lib/i18n";
 
 export default function HomePage() {
@@ -27,6 +28,9 @@ export default function HomePage() {
           </a>
         </div>
       </section>
+
+      {/* ENSAMBLAJE 3D */}
+      <JarraAssembly />
 
       {/* CONFIGURADOR */}
       <section id="configurador" className="bg-[#F7F2EC] py-20 px-4">
